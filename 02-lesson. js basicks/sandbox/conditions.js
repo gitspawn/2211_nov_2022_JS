@@ -1,2 +1,2 @@
 // Ветвления
-// Conditions
+// Conditionals
