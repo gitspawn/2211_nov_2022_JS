@@ -1,5 +1,10 @@
 // Arrays
 
+const usersGirls = ["tetiana", "marina", "valeria"];
+const usersBoys = ["alex", "oleksii", "vitaliy"];
+
+[];
+
 // =================================
 // Check is array
 
