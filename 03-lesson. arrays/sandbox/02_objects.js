@@ -1,45 +1,38 @@
+// [] - array
+// {} - object (hash, ассоциативний массів, словарь)
+
 // let users = ["Sveta", "Olga", "Ivan", "John"];
-// users[1];
-// users[3];
+// console.log(users);
+// console.log(typeof users);
+// console.log(Array.isArray(users));
 
 // let sveta = {
 //     name: "Sveta",
-//     age: 30,
-//     status: "Admin",
+//     age: 25,
 // };
 
-// let olga = {
-//     name: "Olga",
-//     age: 45,
-//     status: "User",
-// };
+// console.log(sveta.age);
+// console.log(sveta["age"]);
+// console.log(sveta.name);
+// console.log(sveta["name"]);
 
-// let ivan = {
-//     name: "Ivan",
-//     age: 24,
-//     status: "Moderator",
-// };
+// console.log(sveta);
+// console.log(typeof sveta);
+// console.log(Array.isArray(sveta));
 
-// user.name;
-// user.age;
+// const friends = [
+//     {
+//         name: "Sveta",
+//         age: 25,
+//     },
+//     {
+//         name: "Bob",
+//         age: 30,
+//     },
+//     {
+//         name: "Mike",
+//         age: 18,
+//     },
+// ];
 
-// let friends = [sveta, olga, ivan];
-let friends = [
-    {
-        name: "Sveta",
-        age: 30,
-        status: "Admin",
-    },
-    {
-        name: "Olga",
-        age: 45,
-        status: "User",
-    },
-    {
-        name: "Ivan",
-        age: 24,
-        status: "Moderator",
-    },
-];
-
-console.log(friends[0]);
+// console.log(friends);
