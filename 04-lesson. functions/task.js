@@ -24,3 +24,7 @@ alert();
 
 // for( A;B;C){}
 for (;;) {}
+
+Number();
+parseFloat();
+parseInt();
