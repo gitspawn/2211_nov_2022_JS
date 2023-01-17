@@ -27,7 +27,8 @@ const vova = new User({
     name: "Vova",
     email: "vova@mail.com",
 });
-mango.changeEmail("mango@supermail.com");
+
+vova.changeEmail("mango@supermail.com");
 console.log(vova.getEmail()); // mango@supermail.com
 console.log(vova.#email); // Будет ошибка, это приватное свойство
 
